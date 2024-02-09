@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="navbar" class="navbar navbar-expand-lg navbar-light fixed" style="padding: 40px;">
+        <a class="navbar-brand" href="home.html" style="color: white;">Home</a>
+        <a class="navbar-brand" href="xml.html" style="color: white;">XML</a>
+        <a class="navbar-brand" href="json.html" style="color: white;">JSON</a>
+        <a class="navbar-brand" href="Contacto.html" style="color: white;">Contacto</a>
+        <span class="navbar-brand" style="color: black; margin-left: 70%; font-size: 18px; font-weight: bold;">Emmanuel Rosas Gemes</span>
+    </header>
+    <div class="barra"></div>
+    <main id="main-content" class="container">
+        <div class="row">
+            <aside id="sidebar" class="col-lg-3">
+                <section class="main-section">
+                    <h3>Categorías</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.w3schools.com/js/default.asp" style="font-size: 30px;">JavaScript</a></li>
+                        <li><a href="https://www.w3schools.com/php/default.asp" style="font-size: 30px;">PHP</a></li>
+                        <li><a href="https://www.w3schools.com/python/default.asp" style="font-size: 30px;">Python</a></li>
+                    </ul>
+                </section>
+                <section class="main-section">
+                    <h3>Últimos posts</h3>
+                    <ul class="list-unstyled">
+                        <li style="list-style-type: disc;"><a href="https://www.tokioschool.com" style="text-decoration: underline;">Controla XML como un hacker...</a></li>
+                        <li style="list-style-type: disc;"><a href="https://ciberexpo.ifaes.com" style="text-decoration: underline;">¿Quieres dominar la Ciberseguridad?</a></li>
+                        <li style="list-style-type: disc;"><a href="https://campusfp.es" style="text-decoration: underline;">¿Quieres saber donde estudiar ASIR?</a></li>
+                    </ul>
+                </section>
+                <section class="main-section">
+                    <h3>Síguenos en redes sociales</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img src="Facebook_f_logo_(2019).svg.png" alt="Facebook" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank">
+                                <img src="Logo_of_Twitter.svg.png" alt="Twitter" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img src="insta.png" alt="Instagram" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com" target="_blank">
+                                <img src="LinkedIn_icon.svg.png" alt="LinkedIn" class="img-fluid">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+            <section id="content-area" class="col-lg-9">
+                <article id="xml">
+                    <h4>Historia de JSON </h4>
+                    <h1>
+                        JSON (acrónimo de JavaScript Object Notation, 'notación de objeto de JavaScript') es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera un formato independiente del lenguaje. Una de las supuestas ventajas de JSON sobre XML como formato de intercambio de datos es que resulta mucho más sencillo escribir un analizador sintáctico (parser) para él.1​ En JavaScript, un texto JSON se puede analizar fácilmente usando la función eval(), algo que (debido a la ubicuidad de JavaScript en casi cualquier navegador web) ha sido fundamental para que haya sido aceptado por parte de la comunidad de desarrolladores AJAX. En la práctica, los argumentos a favor de la facilidad de desarrollo de analizadores o de sus rendimientos son poco relevantes, debido a las cuestiones de seguridad que plantea el uso de eval() y el auge del procesamiento nativo de XML incorporado en los navegadores modernos.5​ Por esa razón, JSON se emplea habitualmente en entornos donde el tamaño del flujo de datos entre cliente y servidor es de vital importancia. De aquí su uso por Yahoo!, Google, Mozilla, etc, que atienden a millones de usuarios, cuando la fuente de datos es explícitamente de fiar y donde no es importante el hecho de no disponer de procesamiento XSLT para manipular los datos en el cliente.
+                    </h1>
+                    <h4>Objetivos de JSON</h4>
+                    <h1>
+                        Los JSON son cadenas - útiles cuando se quiere transmitir datos a través de una red. Debe ser convertido a un objeto nativo de JavaScript cuando se requiera acceder a sus datos. Ésto no es un problema, dado que JavaScript posee un objeto global JSON que tiene los métodos disponibles para convertir entre ellos. El formato JSON (JavaScript Object Notation) es un formato abierto utilizado como alternativa al XML para la transferencia de datos estructurados entre un servidor de Web y una aplicación Web. Su lógica de organización tiene puntos de semejanza con el XML, pero posee una notación diferente. Por lo general, JSON es una mejor opción para las API, las aplicaciones móviles y el almacenamiento de datos, mientras que XML es más adecuado para estructuras de documentos complejas que requieren el intercambio de datos.
+                    </h1>
+                    <h4>Normas de Uso </h4>
+                    <h1>
+                        JSON es sólo un formato de datos — contiene sólo propiedades, no métodos. JSON requiere usar comillas dobles para las cadenas y los nombres de propiedades. Las comillas simples no son válidas. Una coma o dos puntos mal ubicados pueden producir que un archivo JSON no funcione. Los archivos JSON son simples archivos de texto que contienen datos que se pueden consumir desde las aplicaciones. Estos archivos sirven para compartir datos estructurados de manera simple y fácil de leer, tanto para los sistemas informáticos y los lenguajes de programación como para las personas. La estructura de los datos JSON se basa en dos elementos: una colección de pares clave / valor y una lista ordenada de valores. Esto es similar a los tipos de datos utilizados en muchos lenguajes de programación, como los objetos y los arrays
+                    </h1>
+                </article>
+            </section>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
